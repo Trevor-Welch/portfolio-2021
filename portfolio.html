@@ -1,22 +1,25 @@
-<!-- PORTFOLIO PAGE -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trevor Welch - Portfolio & Work</title>
+  <title>Trevor Welch - Portfolio</title>
   <link rel="stylesheet" href="https://use.typekit.net/sgm5sgh.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>trevor welch</h1>
+    <h1>trevor welch - web design & development</h1>
     <button id="open-menu-button">menu</button>
   </header>
 
+  <!-- Mobile Navigation Menu   -->
   <nav id="nav">
     <div class="nav-header">
-      <h4>trevor welch</h4>
+      <h4>trevor welch - web design & development</h4>
       <button id="close-menu-button">X</button>
     </div>
     <div class="nav-list">
@@ -27,44 +30,255 @@
     </div>
   </nav>
 
-  <section>
+  <section class="top-section">
     <div>
-      <h3>Work In Progress</h3>
-      <h4>Portfolio Page</h4>
-      <p>This page is currently under construction. Please return later.</p>
-      <a href="./index.html"><button>RETURN TO HOME</button></a>
+      <h3>by category</h3>
+      <h4>Portfolio</h4>
+      <p>A visual display of work I've done.</p>
+    </div>
+      
+    <!-- START CARD CONTAINER -->
+    <div class="card-container" id="website-development">
+      <h6>Website Development</h6>
+      <a class="card" target="_blank" href="https://turnipprophet.io/">
+        <div class="card--picture">
+          <img src="turnip-prophet.png" alt="a turnip drawing">
+        </div>
+        <div class="card--content">
+          <label>UI Design</label>
+          <h5>Turnip Prophet</h5>
+          <p>Online calculator tool to assist gameplay calucations for the video game "Animal Crossing" on Nintendo Switch.</p>
+        </div>
+        <div class="card--link-label">
+          <div class="card--link-button">
+            <span>Visit Live Site</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
+        </div>
+      </a>
+
+      <a class="card" target="_blank" href="https://www.esteamedcoffee.com/">
+        <div class="card--picture">
+          <img src="esteamed-coffee.png" alt="a blue diamond with the words esteamed coffee">
+        </div>
+        <div class="card--content">
+          <label>website design</label>
+          <h5>Esteamed Coffee</h5>
+          <p>Non-profit that provides individuals with a variety of disabilities with a workplace opportunity.</p>
+        </div>
+        <div class="card--link-label">
+          <div class="card--link-button">
+            <span>Visit Live Site</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
+        </div>
+      </a>
+
+      <a class="card" target="_blank" href="https://retreatoncharlestonpeak.com/">
+        <div class="card--picture">
+          <img src="the-retreat-on-charleston-peak.jpg" alt="a mountain with the words the retreat on charleston peak">
+        </div>
+        <div class="card--content">
+          <label>website design</label>
+          <h5>The Retreat on Charleston Peak</h5>
+          <p>Las Vegas resort in the mountains, providing a welcoming escape from the heat</p>
+        </div>
+        <div class="card--link-label">
+          <div class="card--link-button">
+            <span>Visit Live Site</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
+        </div>
+      </a>
+
+      <a class="card" target="_blank" href="https://wcet3.waketech.edu/tjwelch/WEB125/Bootstrap%20Biltmore/">
+        <div class="card--picture">
+          <img src="biltmore-bootstrap.jpg" alt="logo for the biltmore estate and a plus sign with the bootstrap logo">
+        </div>
+        <div class="card--content">
+          <label>website design</label>
+          <h5>Biltmore with Bootstrap</h5>
+          <p>A redesign of the Biltmore's website using the Bootstrap framework instead.</p>
+        </div>
+        <div class="card--link-label">
+          <div class="card--link-button">
+            <span>Visit Site</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
+        </div>
+      </a>
+
+      <a class="card" target="_blank" href="http://trevorjwelch.com/portfolio2020">
+        <div class="card--picture">
+          <img src="portfolio-2020.png" alt="a screenshot of trevor's old portfolio website">
+        </div>
+        <div class="card--content">
+          <label>website design</label>
+          <h5>My Portfolio 2020</h5>
+          <p>I was actually proud of this one too. But alas, we move on and improve.</p>
+        </div>
+        <div class="card--link-label">
+          <div class="card--link-button">
+            <span>Visit Site</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <!-- END CARD CONTAINER -->
+
+    <!-- START CARD CONTAINER -->
+    <div class="card-container" id="graphic-design">
+      <h6>Graphic Design</h6>
+
+      <a class="card" target="_blank" href="./portfolio/fork-in-the-road.html">
+        <div class="card--picture">
+          <img src="microinteraction-demo.jpg" alt="an iphone with the words fork in the road microinteraction demo project">
+        </div>
+        <div class="card--content">
+          <label>Mobile App Mockup</label>
+          <h5>Fork in the Road</h5>
+          <p>Connects farmers and their fresh organic produce with customers who love to shop locally.</p>
+        </div>
+        <div class="card--link-label">
+          <div class="card--link-button">
+            <span>View Demo</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
+        </div>
+      </a>
+
+      <a class="card" target="_blank" href="./portfolio/dont-waste-durham.html">
+        <div class="card--picture">
+          <img src="dont-waste-durham.jpg" alt="the words dont waste durham in green on a white background">
+        </div>
+        <div class="card--content">
+          <label>ILLUSTRATIONS</label>
+          <h5>Don't Waste Durham</h5>
+          <p>A collection of illustrations done for a superhero themed end-of-year fundraiser.</p>
+        </div>
+        <div class="card--link-label">
+          <div class="card--link-button">
+            <span>View Illustrations</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
+        </div>
+      </a>
+
+      <a class="card" target="_blank" href="./trevor-welch-breakfast-without-bacon.pdf">
+        <div class="card--picture">
+          <img src="breakfast-without-bacon.jpg" alt="a recipe book with the title breakfast without bacon">
+        </div>
+        <div class="card--content">
+          <label>COOK BOOK</label>
+          <h5>Breakfast Without Bacon</h5>
+          <p>A four recipe guide to a meatless morning. All photos are my own as well.</p>
+        </div>
+        <div class="card--link-label">
+          <div class="card--link-button">
+            <span>View PDF</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
+        </div>
+      </a>
+      
+    </div>
+    <!-- END CARD CONTAINER -->
+      <h6>Logo Design</h6>
+      <div class="logo-container">
+        <img src="logo-sfcf.jpg" alt="logo that reads scents for cents fragrances">
+        <img src="logo-hunny-bunny.jpg" alt="logo that reads hunny bunny">
+        <img src="logo-svart.jpg" alt="logo that reads svart">
+        <img src="logo-lumiere.jpg" alt="logo that reads lumiere">
+      </div>
+
+    <!-- START CARD CONTAINER -->
+    <div class="card-container" id="other-work">
+      <h6>Other Work</h6>
+
+      <a class="card" target="_blank" href="./portfolio/just-nuts.html">
+        <div class="card--picture">
+          <img src="just-nuts.jpg" alt="a tubelike cardboard box with the words Just Nuts printed on it">
+        </div>
+        <div class="card--content">
+          <label>PRODUCT DESIGN</label>
+          <h5>Just Nuts!</h5>
+          <p>Single-service nut mix. Concept to prototype - This is a fully original product designed by me.</p>
+        </div>
+        <div class="card--link-label">
+          <div class="card--link-button">
+            <span>View Product</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
+        </div>
+      </a>
+
+      <a class="card" href="./portfolio/love-me.html">
+        <div class="card--picture">
+          <img src="love-me.png" alt="the words love me in black on a white background>
+        </div>
+        <div class="card--content">
+          <label>Motion Design</label>
+          <h5>Kinetic Typography Practice</h5>
+          <p>A 28 second music lyric video for the song "Love Me" by The 1975</p>
+        </div>
+        <div class="card--link-label">
+          <div class="card--link-button">
+            <span>Watch Video</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
+        </div>
+      </a>
+
+      <a class="card" href="./portfolio/ball-animation.html">
+        <div class="card--picture">
+          <img src="ball-animation.png" alt="a red ball falling into blue water, but where the red ball is submerged, it is instead yellow">
+        </div>
+        <div class="card--content">
+          <label>Motion Design</label>
+          <h5>Bouncing Ball Animation</h5>
+          <p>A simple looping animation of a ball. First attempt at using After Effects.</p>
+        </div>
+        <div class="card--link-label">
+          <div class="card--link-button">
+            <span>Watch Animation</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
+        </div>
+      </a>
+      
+    </div>
+    <!-- END CARD CONTAINER -->
+
+      <p>More will be added here later. A lot of new work has been finished during the Spring 2021 school semester and I need to prepare images to go here.</p>
+      <a href="./contact.html"><button>CONTACT ME</button></a>
     </div>
   </section>
   
-  <footer>
-    <div class="sitemap-container">
-      <h4>Sitemap</h4>
-      <div class="sitemap-column">
-        <a href="./index.html">Home</a>
-        <a href="./portfolio.html">Portfolio</a>
-        <a href="./about.html">About</a>
-        <a href="./contact.html">Contact</a>
-        <a href="#">Blog</a>
-      </div>
-      <h4>Contact</h4>
-      <div class="sitemap-column">
-        <a href="mailto:welch.trevor@yahoo.com">welch.trevor@yahoo.com</a>
-        <a href="tel:910-676-5311">910 676 5311</a>
-        <br>
-        <br>
-        <a href="https://twitter.com/trevorjwelch">Twitter</a>
-        <a href="https://www.linkedin.com/in/trevorjwelch/">LinkedIn</a>
-        <a href="https://github.com/Trevor-Welch">GitHub</a>
-      </div>
+<!-- FOOTER / SITEMAP -->
+<footer>
+  <div class="sitemap-container">
+    <h4>Sitemap</h4>
+    <div class="sitemap-column">
+      <a href="./index.html">Home</a>
+      <a href="./portfolio.html">Portfolio</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+      <a href="https://trevorwelch627128845.wordpress.com/">Blog</a>
     </div>
-  </footer>
-  <script> 
-    const nav = document.getElementById('nav')
-    const openMenuButton = document.getElementById('open-menu-button')
-    const closeMenuButton = document.getElementById('close-menu-button')
+    <h4>Let's Connect</h4>
+    <div class="sitemap-column">
+      <a href="mailto:welch.trevor@yahoo.com">welch.trevor@yahoo.com</a>
+      <a href="tel:910-676-5311">910 676 5311</a>
+      <br>
+      <br>
+      <a href="https://twitter.com/trevorjwelch">Twitter</a>
+      <a href="https://www.linkedin.com/in/trevorjwelch/">LinkedIn</a>
+      <a href="https://github.com/Trevor-Welch">GitHub</a>
+    </div>
+  </div>
+</footer>
+<!-- END OF FOOTER -->
 
-    openMenuButton.onclick = function() { nav.style.display = "block" }
-    closeMenuButton.onclick = function() { nav.style.display = "none" }
-  </script>
+<!-- Menu Toggle  -->
+<script> 
+  const nav = document.getElementById('nav')
+  const openMenuButton = document.getElementById('open-menu-button')
+  const closeMenuButton = document.getElementById('close-menu-button')
+
+  openMenuButton.onclick = function() { nav.style.display = "block" }
+  closeMenuButton.onclick = function() { nav.style.display = "none" }
+</script>
+<!-- End of Menu Toggle -->
 </body>
 </html>

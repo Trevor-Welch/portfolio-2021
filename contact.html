@@ -1,4 +1,3 @@
-<!-- CONTACT PAGE -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,16 +6,20 @@
   <title>Trevor Welch - Contact</title>
   <link rel="stylesheet" href="https://use.typekit.net/sgm5sgh.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>trevor welch</h1>
+    <h1>trevor welch - web design & development</h1>
     <button id="open-menu-button">menu</button>
   </header>
 
+  <!-- Mobile Navigation Menu   -->
   <nav id="nav">
     <div class="nav-header">
-      <h4>trevor welch</h4>
+      <h4>trevor welch - web design & development</h4>
       <button id="close-menu-button">X</button>
     </div>
     <div class="nav-list">
@@ -26,45 +29,55 @@
       <a href="./contact.html">Contact</a>
     </div>
   </nav>
+  <!-- END HEADER -->
 
   <section>
     <div>
-      <h3>Work In Progress</h3>
-      <h4>Contact Page</h4>
-      <p>This page is currently under construction. Please return later.</p>
-      <a href="./index.html"><button>RETURN TO HOME</button></a>
+      <h3>My Inbox is Open</h3>
+      <h4>Contact</h4>
+      <p>There are many ways to reach me, whats your favorite?</p>
+      <a href="tel:910-676-5311"><button>PHONE</button></a>
+      <a href="mailto:welch.trevor@yahoo.com"><button>EMAIL</button></a>
+      <a href="https://twitter.com/trevorjwelch"><button>TWITTER</button></a>
+      <a href="https://www.linkedin.com/in/trevorjwelch/"><button>LINKEDIN</button></a>
+      <a href="https://github.com/Trevor-Welch"><button>GITHUB</button></a>
     </div>
   </section>
   
-  <footer>
-    <div class="sitemap-container">
-      <h4>Sitemap</h4>
-      <div class="sitemap-column">
-        <a href="./index.html">Home</a>
-        <a href="./portfolio.html">Portfolio</a>
-        <a href="./about.html">About</a>
-        <a href="./contact.html">Contact</a>
-        <a href="#">Blog</a>
-      </div>
-      <h4>Contact</h4>
-      <div class="sitemap-column">
-        <a href="mailto:welch.trevor@yahoo.com">welch.trevor@yahoo.com</a>
-        <a href="tel:910-676-5311">910 676 5311</a>
-        <br>
-        <br>
-        <a href="https://twitter.com/trevorjwelch">Twitter</a>
-        <a href="https://www.linkedin.com/in/trevorjwelch/">LinkedIn</a>
-        <a href="https://github.com/Trevor-Welch">GitHub</a>
-      </div>
+<!-- FOOTER / SITEMAP -->
+<footer>
+  <div class="sitemap-container">
+    <h4>Sitemap</h4>
+    <div class="sitemap-column">
+      <a href="./index.html">Home</a>
+      <a href="./portfolio.html">Portfolio</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+      <a href="https://trevorwelch627128845.wordpress.com/">Blog</a>
     </div>
-  </footer>
-  <script> 
-    const nav = document.getElementById('nav')
-    const openMenuButton = document.getElementById('open-menu-button')
-    const closeMenuButton = document.getElementById('close-menu-button')
+    <h4>Let's Connect</h4>
+    <div class="sitemap-column">
+      <a href="mailto:welch.trevor@yahoo.com">welch.trevor@yahoo.com</a>
+      <a href="tel:910-676-5311">910 676 5311</a>
+      <br>
+      <br>
+      <a href="https://twitter.com/trevorjwelch">Twitter</a>
+      <a href="https://www.linkedin.com/in/trevorjwelch/">LinkedIn</a>
+      <a href="https://github.com/Trevor-Welch">GitHub</a>
+    </div>
+  </div>
+</footer>
+<!-- END OF FOOTER -->
 
-    openMenuButton.onclick = function() { nav.style.display = "block" }
-    closeMenuButton.onclick = function() { nav.style.display = "none" }
-  </script>
+<!-- Menu Toggle  -->
+<script> 
+  const nav = document.getElementById('nav')
+  const openMenuButton = document.getElementById('open-menu-button')
+  const closeMenuButton = document.getElementById('close-menu-button')
+
+  openMenuButton.onclick = function() { nav.style.display = "block" }
+  closeMenuButton.onclick = function() { nav.style.display = "none" }
+</script>
+<!-- End of Menu Toggle -->
 </body>
 </html>

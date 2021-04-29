@@ -4,19 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trevor Welch</title>
+  <title>Trevor Welch - Web Design and Development</title>
   <link rel="stylesheet" href="https://use.typekit.net/sgm5sgh.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>trevor welch</h1>
+    <h1>trevor welch - web design & development</h1>
     <button id="open-menu-button">menu</button>
   </header>
 
+  <!-- Mobile Navigation Menu   -->
   <nav id="nav">
     <div class="nav-header">
-      <h4>trevor welch</h4>
+      <h4>trevor welch - web design & development</h4>
       <button id="close-menu-button">X</button>
     </div>
     <div class="nav-list">
@@ -28,15 +32,15 @@
   </nav>
 
   <section id="hero">
-    <span><img src="white-plus.png" alt=""><img src="white-plus-top-right.png" alt=""></span>
+    <span><img src="white-plus.png" alt="a white plus"><img src="white-plus-top-right.png" alt="a white 90 degree angle corner"></span>
     <div>
       <h2>Helping People with Great Ideas Share Them With The World</h2>
-      <p>Web Developer. Graphic Designer. Marketing Strategist. Kinda a Cool Guy.</p>
+      <p>Web Developer. Graphic Designer. Marketing Strategist. Kind of a Cool Guy.</p>
       <a href="./portfolio.html"><button>SEE MY WORK</button></a>
       <a href="./contact.html"><button>LET'S CHAT</button></a>
       <a href="./TREVOR-WELCH-THE-WEB-DEVELOPER-AND-GRAPHIC-DESIGNER.docx">Download My Resume</a>
     </div>
-    <span><img src="white-plus-bottom-left.png" alt=""><img src="white-plus.png" alt=""></span>
+    <span><img src="white-plus-bottom-left.png" alt="a white 90 degree angle corner"><img src="white-plus.png" alt="a white plus"></span>
   </section>
 
 
@@ -63,35 +67,55 @@
 
       <a class="card" target="_blank" href="https://turnipprophet.io/">
         <div class="card--picture">
-          <img src="turnip-prophet.png" alt="">
+          <img src="turnip-prophet.png" alt="a turnip">
         </div>
         <div class="card--content">
           <label>UI Design</label>
           <h5>Turnip Prophet</h5>
-          <p>Online calculator tool to assist gameplay calucations for the video game "Animal Crossing" on Nintendo Switch.</p>
+          <p>Online calculator tool to assist gameplay calculations for the video game "Animal Crossing" on Nintendo Switch.</p>
         </div>
         <div class="card--link-label">
-          <span>Visit Live Site</span><span class="arrow">🠚</span>
+          <div class="card--link-button">
+            <span>Visit Live Site</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
         </div>
       </a>
 
-      <a class="card" target="_blank" href="http://trevorjwelch.com/portfolio/dwd-graphics.html">
+      <a class="card" target="_blank" href="./portfolio/dont-waste-durham.html">
         <div class="card--picture">
-          <img src="dont-waste-durham.jpg" alt="">
+          <img src="dont-waste-durham.jpg" alt="a logo which reads dont waste durham">
         </div>
         <div class="card--content">
           <label>graphic design</label>
           <h5>Don't Waste Durham</h5>
-          <p>Created graphics with a superhero themed fundraising campaign.</p>
+          <p>A collection of illustrations done for a superhero themed end-of-year fundraiser.</p>
         </div>
         <div class="card--link-label">
-          <span>View Graphics</span><span class="arrow">🠚</span>
+          <div class="card--link-button">
+            <span>View Illustrations</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
         </div>
       </a>
 
-      <a class="card not-yet" href="#">
+      <a class="card" target="_blank" href="./portfolio/just-nuts.html">
         <div class="card--picture">
-          <img src="love-me.png" alt="">
+          <img src="just-nuts.jpg" alt="a tubelike cardboard box with the words JUST NUTS printed on it">
+        </div>
+        <div class="card--content">
+          <label>PRODUCT DESIGN</label>
+          <h5>Just Nuts!</h5>
+          <p>Single-service nut mix. Concept to prototype - This is a fully original product designed by me.</p>
+        </div>
+        <div class="card--link-label">
+          <div class="card--link-button">
+            <span>View Product</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
+        </div>
+      </a>
+
+      <a class="card" href="./portfolio/love-me.html">
+        <div class="card--picture">
+          <img src="love-me.png" alt="the words love me in black on white background">
         </div>
         <div class="card--content">
           <label>Motion Design</label>
@@ -99,13 +123,15 @@
           <p>A 28 second music lyric video for the song "Love Me" by The 1975</p>
         </div>
         <div class="card--link-label">
-          <span>Watch Video</span><span class="arrow">🠚</span>
+          <div class="card--link-button">
+            <span>Watch Video</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
         </div>
       </a>
 
       <a class="card" target="_blank" href="https://www.esteamedcoffee.com/">
         <div class="card--picture">
-          <img src="esteamed-coffee.png" alt="">
+          <img src="esteamed-coffee.png" alt="a blue diamond with the words esteamed coffee in the center">
         </div>
         <div class="card--content">
           <label>website design</label>
@@ -113,35 +139,25 @@
           <p>Non-profit that provides individuals with a variety of disabilities with a workplace opportunity.</p>
         </div>
         <div class="card--link-label">
-          <span>Visit Live Site</span><span class="arrow">🠚</span>
+          <div class="card--link-button">
+            <span>Visit Live Site</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
         </div>
       </a>
 
-      <a class="card" target="_blank" href="https://www.youtube.com/watch?v=MRDahg_YmIc">
+      <a class="card" target="_blank" href="./portfolio/fork-in-the-road.html">
         <div class="card--picture">
-          <img src="youtube-logo.jpg" alt="">
+          <img src="microinteraction-demo.jpg" alt="an iphone with the words fork in the road">
         </div>
         <div class="card--content">
-          <label>Video</label>
-          <h5>How to Repair a Dryer</h5>
-          <p>A practice in educational content creation and video editing.</p>
+          <label>Mobile App Mockup</label>
+          <h5>Fork in the Road</h5>
+          <p>Connects farmers and their fresh organic produce with customers who love to shop locally.</p>
         </div>
         <div class="card--link-label">
-          <span>Watch Video</span><span class="arrow">🠚</span>
-        </div>
-      </a>
-
-      <a class="card not-yet" href="#">
-        <div class="card--picture">
-          <img src="just-nuts.jpg" alt="">
-        </div>
-        <div class="card--content">
-          <label>Package Design</label>
-          <h5>JUST NUTS</h5>
-          <p>Concept idea for a single-serving snack mix brand - including a logo, box design, vehicle wrap design, and more.</p>
-        </div>
-        <div class="card--link-label">
-          <span>View Project Page</span><span class="arrow">🠚</span>
+          <div class="card--link-button">
+            <span>View Demo</span><img class="arrow" src="right-arrow.svg" alt="a right arrow">
+          </div>
         </div>
       </a>
 
@@ -166,6 +182,7 @@
     </div>
   </section>
   
+  <!-- FOOTER / SITEMAP -->
   <footer>
     <div class="sitemap-container">
       <h4>Sitemap</h4>
@@ -174,9 +191,9 @@
         <a href="./portfolio.html">Portfolio</a>
         <a href="./about.html">About</a>
         <a href="./contact.html">Contact</a>
-        <a href="#">Blog</a>
+        <a href="https://trevorwelch627128845.wordpress.com/">Blog</a>
       </div>
-      <h4>Contact</h4>
+      <h4>Let's Connect</h4>
       <div class="sitemap-column">
         <a href="mailto:welch.trevor@yahoo.com">welch.trevor@yahoo.com</a>
         <a href="tel:910-676-5311">910 676 5311</a>
@@ -188,6 +205,9 @@
       </div>
     </div>
   </footer>
+  <!-- END OF FOOTER -->
+
+  <!-- Menu Toggle  -->
   <script> 
     const nav = document.getElementById('nav')
     const openMenuButton = document.getElementById('open-menu-button')
@@ -196,5 +216,6 @@
     openMenuButton.onclick = function() { nav.style.display = "block" }
     closeMenuButton.onclick = function() { nav.style.display = "none" }
   </script>
+  <!-- End of Menu Toggle -->
 </body>
 </html>

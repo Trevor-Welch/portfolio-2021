@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trevor Welch - Just Nuts Project</title>
+  <link rel="stylesheet" href="https://use.typekit.net/sgm5sgh.css">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>trevor welch - web design & development</h1>
+    <button id="open-menu-button">menu</button>
+  </header>
+
+  <!-- Mobile Navigation Menu   -->
+  <nav id="nav">
+    <div class="nav-header">
+      <h4>trevor welch - web design & development</h4>
+      <button id="close-menu-button">X</button>
+    </div>
+    <div class="nav-list">
+      <a href="../index.html">Home</a>
+      <a href="../portfolio.html">Portfolio</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </div>
+  </nav>
+  <!-- END HEADER -->
+
+  <section id="just-nuts">
+    <div>
+      <h3>PRODUCT DESIGN</h3>
+      <h4>Just Nuts!</h4>
+      <p>This was a four week long project done for school. The only goal was to create an entirely new product, so I came up with an idea for an environmentally conscious single-serving nut brand.</p>
+      <p><i>Utilized Adobe Photoshop, Illustrator, and Animate</i></p>
+      <img src="just-nuts-sketch.jpg" class="too-tall" alt="various pencil sketches on paper">
+      <img src="just-nuts-logo.png" alt="a logo that reads Just Nuts">
+      <img src="just-nuts-dielines.png" alt="dielines for a nut snackbox">
+      <video src="just-nuts-demo.mp4" autoplay controls></video>
+      <img src="just-nuts-car.png" alt="the just nuts logo on the side of a car">
+      <video src="just-nuts-ad.mp4" autoplay controls></video>
+      <a href="../portfolio.html#other-work"><button>BACK TO PORTFOLIO</button></a>
+    </div>
+  </section>
+
+  
+  <!-- FOOTER / SITEMAP -->
+  <footer>
+    <div class="sitemap-container">
+      <h4>Sitemap</h4>
+      <div class="sitemap-column">
+        <a href="../index.html">Home</a>
+        <a href="../portfolio.html">Portfolio</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+        <a href="https://trevorwelch627128845.wordpress.com/">Blog</a>
+      </div>
+      <h4>Let's Connect</h4>
+      <div class="sitemap-column">
+        <a href="mailto:welch.trevor@yahoo.com">welch.trevor@yahoo.com</a>
+        <a href="tel:910-676-5311">910 676 5311</a>
+        <br>
+        <br>
+        <a href="https://twitter.com/trevorjwelch">Twitter</a>
+        <a href="https://www.linkedin.com/in/trevorjwelch/">LinkedIn</a>
+        <a href="https://github.com/Trevor-Welch">GitHub</a>
+      </div>
+    </div>
+  </footer>
+  <!-- END OF FOOTER -->
+
+  <!-- Menu Toggle  -->
+  <script> 
+    const nav = document.getElementById('nav')
+    const openMenuButton = document.getElementById('open-menu-button')
+    const closeMenuButton = document.getElementById('close-menu-button')
+
+    openMenuButton.onclick = function() { nav.style.display = "block" }
+    closeMenuButton.onclick = function() { nav.style.display = "none" }
+  </script>
+  <!-- End of Menu Toggle -->
+</body>
+</html>
